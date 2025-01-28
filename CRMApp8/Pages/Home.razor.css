@@ -177,7 +177,7 @@
     min-width: min-content;
 }
 .avatar {
-    --ig-size: var(--ig-size-small);
+    --ig-size: var(--ig-size-large);
 }
 .hyperlink_1 {
     color: var(--ig-primary-500);

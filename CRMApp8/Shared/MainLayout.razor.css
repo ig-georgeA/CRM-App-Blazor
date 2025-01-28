@@ -68,7 +68,7 @@
     color: var(--ig-surface-500);
 }
 .avatar {
-    --ig-size: var(--ig-size-small);
+    --ig-size: var(--ig-size-large);
 }
 .avatar::part(base) {
     background-color: transparent;
