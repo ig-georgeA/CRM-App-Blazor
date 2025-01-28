@@ -4,16 +4,16 @@ using CRMApp8.Pages;
 
 namespace TestCRMApp8
 {
-	[Collection("CRMApp8")]
-	public class TestContracts
-	{
-		[Fact]
-		public void ViewIsCreated()
-		{
-			using var ctx = new TestContext();
-			ctx.JSInterop.Mode = JSRuntimeMode.Loose;
-			var componentUnderTest = ctx.RenderComponent<Contracts>();
-			Assert.NotNull(componentUnderTest);
-		}
-	}
+  [Collection("CRMApp8")]
+  public class TestContracts
+  {
+    [Fact]
+    public void ViewIsCreated()
+    {
+      using var ctx = new TestContext();
+      ctx.JSInterop.Mode = JSRuntimeMode.Loose;
+      var componentUnderTest = ctx.RenderComponent<Contracts>();
+      Assert.NotNull(componentUnderTest);
+    }
+  }
 }
